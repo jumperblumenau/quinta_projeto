@@ -11,3 +11,4 @@ def forca():
     print(" |            ")
 
     print("_|___         ")
+aldjkf
