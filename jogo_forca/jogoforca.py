@@ -1,4 +1,4 @@
-##CRIAR NESTA PAGINA UM JOGO DE FORCA##
+ ##CRIAR NESTA PAGINA UM JOGO DE FORCA##
 
 def forca():
     print("  _______     ")
@@ -11,3 +11,5 @@ def forca():
     print(" |            ")
 
     print("_|___         ")
+
+vdv
