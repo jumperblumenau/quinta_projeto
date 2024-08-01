@@ -75,6 +75,15 @@ def exibir_forca(erros):
           / \\  |
                |
         --------
+        """,
+        """
+           -----
+           |   |
+           O   |
+          /|\\  |
+          / \\  |
+               |
+        --------
         """
     ]
     print(estados[erros])
@@ -83,7 +92,7 @@ def exibir_forca(erros):
 def jogar():
     palavra = escolher_palavra()
     letras_adivinhadas = []
-    tentativas = 6
+    tentativas = 10
     letras_erradas = []
 
     print("Bem-vindo ao Jogo da Forca!")
@@ -115,14 +124,5 @@ def jogar():
             print(f"Você perdeu! A palavra era: {palavra}")
 
 
-def main():
-    while True:
-        jogar()
-        resposta = input("Deseja jogar novamente? (s/n): ").lower()
-        if resposta != 's':
-            print("Obrigado por jogar! Até a próxima.")
-            break
-
-
 if __name__ == "__main__":
-    main()
+    jogar()
